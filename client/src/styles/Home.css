@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+.landing-page{
+    background-color: blueviolet;
+    height: 100vh;
+}
+.side{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+.side h1{
+    font-weight: 700;
+    font-size: 5rem;
+    margin: 250px 0 0 350px;
+    text-align: center;
+    width: 650px;
+}
+#right-side{
+    z-index: 2;
+    background-color: rgb(255, 39, 4);
+}
+#left-side{
+    background-color: rgb(26, 17, 16);
+    color: white;
+}
+.fancy{
+    font-family: Segoe Script;
+}
+#right-fancy{
+    color: white;
+}
+#left-fancy{
+    color: rgb(255, 39, 4);
+}
+.side button{
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    margin: 50px 0 0 450px;
+}
+#right-btn{
+    background-color: rgb(26, 17, 16);
+    color: rgb(255, 39, 4);
+}
+#left-btn{
+    border: 2px solid rgb(255, 39, 4);
+    color: rgb(255, 39, 4);
+    background-color: transparent;
+}
+.nav-bar{
+    color: white;
+    height: 100px;
+    position: absolute;
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+}
+.nav-bar img{
+    width: 70px;
+    height: 70px;
+}
+.nav-bar h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    width: 200px;
+}
+.header-title{
+    position: relative;
+    align-items: center;
+    height: 80px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    list-style-type: none;
+}
+.nav-bar Link{
+    text-decoration: none;
+}
+.about-page{
+    height: 100vh;
+    background-color: rgb(250, 250, 253);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.about-para{
+    padding: 3rem 0 0 3rem;
+}
+.about-para h1{
+    font-size: 2rem;
+}
+.about-para p{
+    margin-top: 6rem;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    width: 550px;
+}
+.about-para span{
+    color: rgb(255, 39, 4);
+    text-decoration: underline;
+}
+.about-para button{
+    background-color: rgb(26, 17, 16);
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    height: 60px;
+    margin-top: 4rem;
+}
+.spinning-logo img{
+    width: 500px;
+    height: 500px;
+    margin: 8rem 0 0 5rem;
+}
+.features-page{
+    height: 100vh;
+    background-color: rgb(250, 250, 253);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+.feature{
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 0 0 0;
+    transition: 0.5ms ease-in-out;
+}
+.feature img{
+    width: 70px;
+    height: 70px;
+}
+.feature h2{
+    color: rgb(255, 39, 4);
+}
+.feature p{
+    margin: 5rem 0 0 2rem;
+    width: 220px;
+    font-size: 18px;
+}
+.feature:hover{
+    border: 5px solid rgb(26, 17, 16);
+}
+#footer{
+    height: 20vh;
+    background-color: rgb(26, 17, 16);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+}
+.rights{
+    padding-left: 3rem;
+}
+.rights span{
+    font-size: 14px;
+    text-decoration: underline;
+    color: rgb(255, 255, 255, .5);
+}
+.title-github{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+    width: 400px;
+}
+.title-github p{
+    font-size: larger;
+    margin-top: 25px;
+    color: rgb(255, 255, 255, .5);
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo img{
+    width: 90px;
+    height: 90px;
+}
+.footer-links{
+    font-size: larger;
+    color: rgb(255, 255, 255, .5);
+}
+.footer-links ul{
+    margin: 55px 0 0 2rem;
+}

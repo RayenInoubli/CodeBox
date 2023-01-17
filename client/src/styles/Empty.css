@@ -1,0 +1,33 @@
+.empty-profile{
+    width: 85%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.empty-profile img{
+    width: 15%;
+    height: 30%;
+}
+.empty-profile button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: rgb(255, 39, 4);
+    color: rgb(26, 17, 16);
+    font-weight: bold;
+    font-size: 20px;
+    -webkit-box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 23px -5px rgba(0,0,0,0.3);
+}
+.empty-profile h1{
+    font-size: 3rem;
+    color: rgb(255, 39, 4);
+}
+.empty-profile p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+}

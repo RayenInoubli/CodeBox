@@ -1,0 +1,68 @@
+.modal-bg{
+    background-color: rgb(250, 250, 253);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-cont-true,
+.modal-cont-false{
+    height: 60%;
+    width: 80%;
+    display: grid;
+    grid-template-rows: 10% 70% 20%;
+}
+.modal-cont-false{
+    border: 3px solid rgb(252, 54, 54);
+    background-color: rgb(247, 247, 247);
+}
+.modal-cont-true{
+    border: 3px solid rgb(54, 252, 54);
+    background-color: rgb(247, 247, 247);
+}
+.close-btn{
+    display: flex;
+    justify-content: flex-end;
+    padding: .5rem .75rem 0 0;
+}
+.close-btn button{
+    background-color: transparent;
+    font-size: 30px;
+    border: none;
+}
+.close-btn button:hover{
+    color: rgb(252, 54, 54);
+}
+.correct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.btn-sect{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn-sect button{
+    font-size: 16px;
+    width: 15%;
+    height: 70%;
+    background-color: rgb(255, 39, 4);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+#try-another-time{
+    background-color: #F5F5F5;
+    color: #3F3D56;
+    text-transform: uppercase;
+    box-shadow: 0 0 5px 0 rgb(0,0,0,.1);
+    width: 20%;
+}
+.not-correct{
+    padding: 0 1rem 0 1rem;
+}
